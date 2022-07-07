@@ -105,14 +105,14 @@ analytics:
 # Site Author
 author:
   name             : "llinux910"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "../assets/images/bio-photo.jpeg"
   bio              : " "
   location         : "South korea"
-  email            :
+  email            : "llinux910@gmail.com"
   links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      url: "llinux910@gmail.com"
+    #- label: "Email"
+    #  icon: "fas fa-fw fa-envelope-square"
+    #  url: "llinux910@gmail.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       url: "https://llinux910.github.io/"
@@ -152,6 +152,7 @@ exclude:
   - gulpfile.js
   - LICENSE
   - log
+
   - node_modules
   - package.json
   - package-lock.json
@@ -185,6 +186,7 @@ kramdown:
   toc_levels: 1..6
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
+  math-engine: katex
 
 
 # Sass/SCSS
@@ -227,9 +229,9 @@ whitelist:
 #  - <base_path>/tags/my-awesome-tag/index.html ~> path: /tags/
 #  - <base_path>/categories/my-awesome-category/index.html ~> path: /categories/
 #  - <base_path>/my-awesome-category/index.html ~> path: /
-category_archive:
-  type: liquid
-  path: /categories/
+# category_archive:
+#   type: liquid
+#   path: /categories/
 tag_archive:
   type: liquid
   path: /tags/
