@@ -15,12 +15,12 @@
 minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
-locale                   : "en-US"
+locale                   : "ko-KR"
 title                    : "llinux910 blog"
-title_separator          : "-"
-subtitle                 : # site tagline that appears below site title in masthead
+title_separator          : "|"
+subtitle                 : " "
 name                     : "llinux910"
-description              : "An amazing website."
+description              : "llinux910 blog"
 url                      : "https://llinux910.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -104,10 +104,10 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
+  name             : "llinux910"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
-  location         : "Somewhere"
+  bio              : " "
+  location         : "South korea"
   email            :
   links:
     - label: "Email"
@@ -290,3 +290,6 @@ defaults:
       comments: # true
       share: true
       related: true
+      show_date: true
+
+date_format: "%Y-%m-%d"
