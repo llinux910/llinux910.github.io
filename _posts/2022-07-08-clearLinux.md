@@ -12,8 +12,6 @@ katex: True
 
 
 
-# clear linux 한글 설정
-
 
 
 clear linux는 기본적으로 한글을 제공하지않습니다.
