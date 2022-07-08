@@ -10,14 +10,11 @@ katex: True
 
 ---
 
-
-
-
-
 clear linux는 기본적으로 한글을 제공하지않습니다.
 
 아래 커맨드로 한글 입력 가능합니다.
 
+```bash
 sudo swupd bundle-add devpkg-expat  
 sudo swupd bundle-add desktop-dev  
 export PKG_CONFIG_PATH=/usr/lib/pkgconfig  
@@ -38,3 +35,8 @@ sudo make install
 sudo ldconfig  
 cd /usr/bin  
 ./ibus-setup-hangul
+```
+
+
+
+
