@@ -10,6 +10,7 @@ katex: True
 ---
 
 clear linux 에서 한글 키보드 입력방법을 설명합니다.
+
 아래 커맨드를 terminal창에서 실행하면됩니다.
 
 -
