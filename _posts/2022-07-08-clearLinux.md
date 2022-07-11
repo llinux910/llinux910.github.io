@@ -37,3 +37,4 @@ sudo ldconfig
 cd /usr/bin
 ./ibus-setup-hangul
 ```
+
