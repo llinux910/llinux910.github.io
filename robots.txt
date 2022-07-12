@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+Sitemap: [https://llinux910.github.io/sitemap.xml]
+(https://llinux910.github.io/sitemap.xml)
