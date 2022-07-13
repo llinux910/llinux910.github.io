@@ -9,7 +9,7 @@ katex: True
 
 ---
 
-this scripts tested on linux
+this scripts tested on linux.
 
 ## Install
 ```python
