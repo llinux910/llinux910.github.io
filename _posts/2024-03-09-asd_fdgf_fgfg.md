@@ -360,13 +360,11 @@ xt::xarray<double> arr2
 xt::view(arr1, 1) + arr2
 ```
 
-    [1minput_line_55:2:10: [0m[0;1;31mfatal error: [0m[1m'xtensor/xarray.hpp' file not found[0m
-    #include "xtensor/xarray.hpp"
-    [0;1;32m         ^~~~~~~~~~~~~~~~~~~~
-    [0m
 
 
-    Interpreter Error: 
+
+<table style='border-style:solid;border-width:1px;'><tbody><tr><td style='font-family:monospace;' title='0'><pre>  7.</pre></td></tr><tr><td style='font-family:monospace;' title='1'><pre> 11.</pre></td></tr><tr><td style='font-family:monospace;' title='2'><pre> 14.</pre></td></tr></tbody></table>
+
 
 
 
